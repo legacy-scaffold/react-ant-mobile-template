@@ -13,6 +13,7 @@ module.exports=merge(webpackBaseConfig,{
         port:port,
         host:host,
         inline:true,
+        useLocalIp:true,
         disableHostCheck:false,
         historyApiFallback:true,
     }
